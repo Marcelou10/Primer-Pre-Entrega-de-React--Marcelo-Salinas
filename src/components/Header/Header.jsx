@@ -1,4 +1,5 @@
-
+import CartWidget from '../Cartwidget/CartWidget'
+import './Header.scss'
 const Header = () => {
 
     return (
@@ -12,6 +13,7 @@ const Header = () => {
                     <a className="header__a" href="#">Contacto</a>
                 </nav>
             </div>
+            < CartWidget />
         </header>
     )
 } 

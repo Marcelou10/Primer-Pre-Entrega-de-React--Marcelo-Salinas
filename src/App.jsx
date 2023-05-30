@@ -1,6 +1,8 @@
-import Header from "./components/header"
-import './App.css'
-import ItemListContainer from "./components/ItemListContainer"
+import Header from "./components/Header/Header"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import 'bootstrap-icons/font/bootstrap-icons.scss'
+
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
       <div>
         <Header />
-        < ItemListContainer />
+        < ItemListContainer mensaje="Hola mundo" />
       </div>
 
 
