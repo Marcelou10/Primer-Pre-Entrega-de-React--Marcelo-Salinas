@@ -1,5 +1,6 @@
 import Header from "./components/header"
 import './App.css'
+import ItemListContainer from "./components/ItemListContainer"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <div>
         <Header />
+        < ItemListContainer />
       </div>
 
 
