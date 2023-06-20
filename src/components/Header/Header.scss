@@ -1,32 +1,39 @@
 /*Header*/
 .header{
-    background-color: rgb(228, 197, 160);
+    background-color: rgb(10, 9, 9);
+    font-family: 'Playfair', serif;
+
 
     .header__box{
         max-width: 1100px;
         margin: 0 auto;
         padding: 20px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
         .header__title{
-            font-size: 40px;
+            font-size: 18px;
             font-weight: 700;
             color: white;
+            text-transform: uppercase;
+            text-decoration: none;
         }
 
         .header__nav{
-            display: flex;
-            gap: 1rem;
-            align-items: center;
 
-            .header__a{
-                color:white;
-                font-size: 18px;
-                text-transform: uppercase;
-                text-decoration: none;
-            }
+        .header__ul{
+        display: flex;
+        gap: 4rem;
+        align-items:center;
+        justify-content: space-around;
+
+        .header__a{
+        color:white;
+        font-size: 18px;
+        text-decoration: none;
+        }
+        }
         }
     }
 }

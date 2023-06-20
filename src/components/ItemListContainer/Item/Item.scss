@@ -1,0 +1,32 @@
+
+.products{
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .products__img{width: 300px;}
+
+
+.products__title{font-size: 30px;
+color: white;}
+
+.products__precio{font-size: 25px;
+color: white;}
+
+.products__button{
+    background-color:white;
+    color: black ;
+    font-size: 20px;
+    border: solid 1rem black;
+    border-radius: 1.5rem;
+
+.produc__button:hover{
+    background-color: black;
+    color: white;
+}}
+}
+
