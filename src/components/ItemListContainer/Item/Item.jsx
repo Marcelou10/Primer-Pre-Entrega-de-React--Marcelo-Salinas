@@ -10,6 +10,7 @@ return (
 <h1 className="products__title">{producto.title}</h1>
 
 <p className="products__precio">Precio: ${producto.price}</p>
+<p className='products__categoria'>categoria:{producto.categoria}</p>
 
 <button className="products__button" href={`/item/${producto.id}`}>Comprar Ahora</button>
 

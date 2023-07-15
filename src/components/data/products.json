@@ -3,108 +3,124 @@
 "id": 1,
 "title": "Logitech G Pro X Superlight",
 "image": "public/images/Logitech/Superlight.png",
-"price": 130
+"price": 130,
+"categoria": "Logitech"
 },
 
 {
 "id": 2,
 "title": "Logitech G303 Shroud Edition",
 "image": "./images/Logitech/g305.png",
-"price": 67.95},
+"price": 67.95,
+"categoria": "Logitech"},
 
 {
 "id": 3,
 "title": "Logitech G903 LightSpeed",
 "image": "./images/Logitech/g903.png",
-"price": 79
+"price": 79,
+"categoria": "Logitech"
 },
 
 {
 "id": 4,
 "title": "Razer DeathAdder V3 Pro Faker Edition",
-"image": "public/images/Razer/v3pro-faker.png",
-"price": 170
+"image": "public/images/Razer/V3-pro faker.png",
+"price": 170,
+"categoria":"Razer"
 },
 
 {
 "id": 5,
 "title": "Razer DeathAdder V3 Pro",
-"image": "public/images/Razer/v3pro-comun.png",
-"price": 150
+"image": "public/images/Razer/v3pro-simple.png",
+"price": 150,
+"categoria":"Razer"
 },
 
 {
 "id": 6,
 "title": "Razer V2 Pro",
-"image": "public/images/Razer/viperv2.png",
-"price": 150
+"image": "public/images/Razer/v2pro.png",
+"price": 150,
+"categoria":"Razer"
 },
 
 {
 "id": 7,
 "title": "Pulsar X2 Wireless",
 "image": "./images/Pulsar/x2.webp",
-"price": 94.95
+"price": 94.95,
+"categoria":"Pulsar"
 },
 
 {
 "id": 8,
 "title": "Pulsar X2 Bruce Lee Edition",
 "image": "./images/Pulsar/brucelee.webp",
-"price": 119.95
+"price": 119.95,
+"categoria":"Pulsar"
 },
 
 {
 "id": 9,
 "title": "Pulsar Xlite V2 Wireless",
 "image": "./images/Pulsar/xlite.webp",
-"price": 74.95
+"price": 74.95,
+"categoria":"Pulsar"
 },
 
 {
 "id": 10,
 "title": "Vaxee Xe Wireless",
 "image": "./images/Vaxee/xe.webp",
-"price": 119
+"price": 119,
+"categoria":"Vaxee"
 },
 
 {
 "id": 11,
 "title": "Vaxee Zygen NP-01",
 "image": "./images/Vaxee/zygen.webp",
-"price": 64.99},
+"price": 64.99,
+"categoria":"Vaxee"},
 {
 "id": 12,
 "title": "Vaxee Outset Ax",
 "image": "./images/Vaxee/outset.webp",
-"price": 64.99
+"price": 64.99,
+"categoria":"Vaxee"
 },
 
 {
 "id": 13,
 "title": "G-Wolves HT-S Plus 4K Wireless",
 "image": "./images/G-wolves/hts-4khz.webp",
-"price": 130
+"price": 130,
+"categoria":"G-wolves"
 },
 
 {
 "id": 14,
 "title": "G-Wolves HT-S Plus Ace Wireless",
 "image": "./images/G-wolves/hts-ace.webp",
-"price": 130
+"price": 130,
+"categoria":"G-Wolves"
 },
 
 {
 "id": 15,
 "title": " G-Wolves HTX 4K Wireless",
 "image": "./images/G-wolves/htx-4khz.webp",
-"price": 130
+"price": 130,
+"categoria":"G-Wolves"
 },
 
 {
 "id": 16,
 "title": "G-Wolves HTX Ace Wireless",
 "image": "./images/G-wolves/htx-ace.webp",
-"price": 130
+"price": 130,
+"categoria":"G-Wolves"
 }
 ]

@@ -11,12 +11,32 @@ const Header = () => {
                 <nav className="header__nav">
                     <ul className='header__ul'>
                     <li><Link className="header__a" to="/inicio">Home</Link></li>
+
                     <li><Link className="header__a" to="/Allproducts">All Products</Link></li>
-                    <li><Link className="header__a" to="/item/id:">Logitech</Link></li>
-                    <li><Link className="header__a" to="/Razer">Razer</Link></li>
-                    <li><Link className="header__a" to="/Pulsar">Pulsar</Link></li>
-                    <li><Link className="header__a" to="/Vaxee">Vaxee</Link></li>
-                    <li><Link className="header__a" to="/G-Wolves">G-Wolves</Link></li>
+
+                    <li>
+                        <img className='logos' src="public/images/Logos/logitech.svg" alt="" />
+                        <Link className="header__a" to="/Allproducts/logitech">Logitech</Link>
+                    </li>
+
+                    <li>
+                        <img className='logos' src="public/images/Logos/razer.svg" alt="" />
+                        <Link className="header__a" to="/Allproducts/Razer">Razer</Link>
+                    </li>
+
+                    <li>
+                        <img className='logos' src="public/images/Logos/pulsar.avif" alt="" />
+                        <Link className="header__a" to="/Allproducts/Pulsar">Pulsar</Link>
+                    </li>
+
+                    <li>
+                        <img className='logos' src="public/images/Logos/vaxee.webp" alt="" />
+                        <Link className="header__a" to="/Allproducts/Vaxee">Vaxee</Link>
+                    </li>
+
+                    <li><img className='logos' src="public/images/Logos/g wolves.webp" alt="" />
+                        <Link className="header__a" to="/Allproducts/G-Wolves">G-Wolves</Link></li>
+                    <CartWidget/>
                     </ul>
                 </nav>
             </div>

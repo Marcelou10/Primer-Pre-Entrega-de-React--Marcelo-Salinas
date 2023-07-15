@@ -1,0 +1,45 @@
+.ft{
+    background-color: rgb(10, 9, 9);
+
+    .titulo{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+        .ig{
+            background-color: #ff006f;
+            padding: 8px;
+            border-radius: 50px;
+            color: #fff;
+        }
+
+        .fb{
+            background-color: #0d00ff;
+            padding: 8px;
+            border-radius: 50px;
+            color: #fff;
+        }
+
+        .tw{
+            background-color: #0095ff;
+            padding: 8px;
+            border-radius: 50px;
+            color: #fff;
+        }
+    }
+
+    .derechos{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+

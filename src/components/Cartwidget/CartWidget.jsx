@@ -1,11 +1,13 @@
-
+import '../Cartwidget/Cartwidget.scss'
 const CartWidget = () => {
 
     return (
         <div>
-        <button className="buton" >
-        <i id="buton" className="bi bi-basket2-fill fs-1 text-primary  align-items-center"></i> 0 
+        <button className="button">
+        <i  className="bi bi-basket2-fill fs-1 text-primary  ">0</i> 
         </button>
+
+        
         </div>
     
     )
